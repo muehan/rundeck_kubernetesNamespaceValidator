@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  rundeck:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        url: http://localhost:4440
+    volumes:
+      - ./data:/home/rundeck/server/data
+    ports:
+      - 4440:4440
+    restart: always
