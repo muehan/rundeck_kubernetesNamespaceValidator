@@ -9,6 +9,7 @@ sourceCompatibility = 1.8
 ext.rundeckPluginVersion= '2.0'
 ext.rundeckVersion= '3.0.x'
 ext.pluginClassNames=['com.plugin.kubernetesnamespace.Kubernetesnamespace', 'com.plugin.kubernetesnamespace.KubernetesnamespaceValidator']
+// ext.pluginClassNames='com.plugin.kubernetesnamespace.Kubernetesnamespace'
 
 repositories {
     mavenLocal()
