@@ -3,4 +3,4 @@
 bin
 build
 docker/data
-docker/lib
+docker/lib/*.jar
